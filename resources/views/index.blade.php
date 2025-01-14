@@ -37,16 +37,16 @@
             <!-- foto atas -->
             <div class="flex row justify-between">
                 <div class="col">
-                    <img src="../img/hero1.jpg" alt="" class="w-36 top-32 -right-56 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-36 top-32 -right-56 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-32 h-44 top-44 -right-40 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-32 h-44 top-44 -right-40 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-52 h-36 mt-36 left-28 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-52 h-36 mt-36 left-28 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-36 h-56 -left-10 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-36 h-56 -left-10 relative object-cover">
                 </div>
             </div>
             <!-- foto atas -->
@@ -63,16 +63,18 @@
             <!-- foto bawah -->
             <div class="flex row justify-between">
                 <div class="col">
-                    <img src="../img/hero1.jpg" alt="" class="w-28 h-32 -top-5 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-28 h-32 -top-5 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-[140px] h-32 left-6 -bottom-14 relative">
+                    <img src="../img/hero1.jpg" alt=""
+                        class="w-[140px] h-32 left-6 -bottom-14 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-60 h-32 mt-36 -left-12 -bottom-9 relative">
+                    <img src="../img/hero1.jpg" alt=""
+                        class="w-60 h-32 mt-36 -left-12 -bottom-9 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-40 h-36 -top-2 -left-28 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-40 h-36 -top-2 -left-28 relative object-cover">
                 </div>
             </div>
             <!-- foto bawah -->
@@ -104,16 +106,18 @@
             <!-- image -->
             <div class="flex row justify-between">
                 <div class="col">
-                    <img src="../img/hero1.jpg" alt="" class="w-56 -left-44 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-56 -left-44 -bottom-16 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-48 h-64 -left-24 -bottom-44 relative">
+                    <img src="../img/hero1.jpg" alt=""
+                        class="w-48 h-72 -left-24 -bottom-64 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-52 h-36 relative">
+                    <img src="../img/hero1.jpg" alt="" class="w-56 h-96 -right-28 -top-3 relative object-cover">
                 </div>
                 <div class="col ">
-                    <img src="../img/hero1.jpg" alt="" class="w-36 h-56  relative">
+                    <img src="../img/hero1.jpg" alt=""
+                        class="w-52 h-72 -right-[275px] -bottom-5 relative object-cover">
                 </div>
             </div>
             <!-- end image -->
