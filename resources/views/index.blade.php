@@ -3,6 +3,9 @@
 
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
 </head>
 
@@ -136,7 +139,7 @@
     {{-- hero 3 --}}
     <section class="w-full min-h-screen bg-cream2">
         <div class="container">
-            <div class="row text-6xl font-serif font-extrabold text-justify mt-20 ml-[159px]">
+            <div class="row text-7xl font-serif font-extrabold text-justify mt-20 ml-[159px]">
                 <p class="font-light">Coming up</p>
                 <p class="font-light">events</p>
             </div>
@@ -147,8 +150,8 @@
 
                 {{-- text in image --}}
                 <div class="text-justify bottom-10 left-7 p-4 absolute">
-                    <h1 class="text-white text-6xl font-serif">Surabaya Gallery</h1>
-                    <h1 class="text-white text-6xl font-serif">exhbition</h1>
+                    <h1 class="text-white text-7xl font-serif">Surabaya Gallery</h1>
+                    <h1 class="text-white text-7xl font-['Inria_Sans']">exhbition</h1>
                 </div>
             </div>
 

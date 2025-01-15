@@ -24,6 +24,7 @@ export default {
 
             fontFamily: {
                 inter: ["Inter", "sans-serif", ...defaultTheme.fontFamily.sans],
+                serif: ["Inria Sans", "serif", ...defaultTheme.fontFamily.sans],
             },
         },
     },
