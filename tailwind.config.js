@@ -15,6 +15,11 @@ export default {
                 cream: "rgb(250, 243, 237)",
                 cream2: "#f9f2ed",
                 blackDrop: "#101010",
+                redDrop: "#ff1212",
+            },
+
+            backgroundImage: {
+                "hero-pattern": "url('/img/hero1.jpg')",
             },
 
             fontFamily: {
