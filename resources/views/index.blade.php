@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
 </head>
 
@@ -59,9 +59,9 @@
             <!-- foto atas -->
 
             <!-- text middle -->
-            <div class="row mt-[65px] font-serif text-6xl font-semibold">
-                <span class="font-light">SELAMAT DATANG DI GALERI</span>
-                <div class="font-light">
+            <div class="row mt-[65px] text-6xl ">
+                <span class="font-serif font-semibold">SELAMAT DATANG DI GALERI</span>
+                <div class="font-serif font-semibold">
                     BAMBANG TJAHJADI
                 </div>
             </div>
@@ -99,9 +99,9 @@
         <div class="container mx-auto text-white justify-items-center">
             <!-- text -->
             <div class="row flex">
-                <div class="col text-5xl font-serif text-justify pt-24">
-                    <p class="uppercase">all type of</p>
-                    <p class="uppercase">projects</p>
+                <div class="col text-5xl text-justify pt-24">
+                    <p class="font-serif uppercase">all type of</p>
+                    <p class="font-serif uppercase">projects</p>
                 </div>
                 <div class="col text-xl ml-8 text-justify pt-44">
                     <p>with superhub collab, organize and prioritize feature request to</p>
@@ -139,9 +139,9 @@
     {{-- hero 3 --}}
     <section class="w-full min-h-screen bg-cream2">
         <div class="container">
-            <div class="row text-7xl font-serif font-extrabold text-justify mt-20 ml-[159px]">
-                <p class="font-light">Coming up</p>
-                <p class="font-light">events</p>
+            <div class="row text-7xl text-justify mt-20 ml-[159px]">
+                <p class="font-semibold font-serif">Coming up</p>
+                <p class="font-semibold font-serif">events</p>
             </div>
 
             {{-- image --}}
@@ -151,7 +151,7 @@
                 {{-- text in image --}}
                 <div class="text-justify bottom-10 left-7 p-4 absolute">
                     <h1 class="text-white text-7xl font-serif">Surabaya Gallery</h1>
-                    <h1 class="text-white text-7xl font-['Inria_Sans']">exhbition</h1>
+                    <h1 class="text-white text-7xl font-serif">exhbition</h1>
                 </div>
             </div>
 
@@ -186,6 +186,31 @@
             </div>
     </section>
     {{-- end hero 3 --}}
+
+    {{-- hero 4 --}}
+    <section class="w-full min-h-screen bg-white mt-36">
+        <div class="row">
+            <div class="col text-[100px] pt-24 pl-24 text-abuCoklat justify-items-start font-serif font-semibold leading-[0.8]">
+                <h1>Who is</h1>
+                <h1>me?</h1>
+            </div>
+        </div>
+        <div class="row flex justify-center">
+            {{-- image --}}
+            <div class="bg-cover bg-object">
+                <img src="../img/hero1.jpg" alt="" class="rounded-2xl w-[400px] h-[450px] -top-10 -right-4 relative">
+            </div>
+            <div class="col text-6xl justify-items-start -right-14 leading-[4.5rem] relative">
+                <p class="font-serif">Bambang Tjahjadi seorang</p>
+                <p class="font-serif">pelukis yang mengganti</p>
+                <p class="font-serif">namanya karena sakit</p>
+                <p class="font-serif">sakitan</p>
+            </div>
+        </div>
+
+            <button type="submit" class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold -left-8 -top-28 relative"><span class="font-inter"></span>Get Ticket</button>
+    </section>
+    {{-- end hero 4 --}}
 
 
     <div class="mb-96"></div>
