@@ -208,9 +208,41 @@
             </div>
         </div>
 
-            <button type="submit" class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold -left-8 -top-28 relative"><span class="font-inter"></span>Get Ticket</button>
+            <button type="submit" class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold -left-8 -top-28 relative"><span class="font-inter">Get Ticket</span></button>
     </section>
     {{-- end hero 4 --}}
+
+    {{-- hero 5 --}}
+    <section class="w-full min-h-screen">
+        <div class="container mt-28">
+            <div class="row justify-items-center">
+                <p class="font-serif text-6xl font-semibold">What's</p>
+                <p class="font-serif text-6xl font-semibold">happening at the</p>
+                <p class="font-serif text-6xl font-semibold">museum right</p>
+                <p class="font-serif text-6xl font-semibold">now.</p>
+            </div>
+
+            <button type="submit" class="border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold mt-10">See more</button>
+
+            <div class="row mt-36">
+                <div class="grid grid-cols-4 justify-items-center justify-stretch px-20">
+                    <div>
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                    </div>
+                    <div>
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                    </div>
+                    <div>
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                    </div>
+                    <div>
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- end hero 5 --}}
 
 
     <div class="mb-96"></div>
