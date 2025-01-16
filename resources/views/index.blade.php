@@ -227,16 +227,16 @@
             <div class="row mt-36">
                 <div class="grid grid-cols-4 justify-items-center justify-stretch px-20">
                     <div>
-                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
                     </div>
                     <div>
-                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
                     </div>
                     <div>
-                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
                     </div>
                     <div>
-                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md">
+                        <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
                     </div>
                 </div>
             </div>
