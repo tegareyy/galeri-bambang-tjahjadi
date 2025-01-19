@@ -31,6 +31,11 @@ export default {
                 blackDrop: "#101010",
                 redDrop: "#ff1212",
                 abuCoklat: "#adadad",
+                neonGreen: "#a6ff00",
+            },
+
+            boxShadow: {
+                neon: "0 0 5px #a6ff00, 0 0 15px #a6ff00, 0 0 30px #a6ff00",
             },
 
             lineHeight: {
@@ -47,5 +52,26 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        function ({ addUtilities }) {
+            addUtilities({
+                ".text-neon": {
+                    "text-shadow":
+                        "0 0 5px #a6ff00, 0 0 10px #a6ff00, 0 0 20px #a6ff00",
+                },
+                ".btn-neon": {
+                    "background-color": "#a6ff00",
+                    color: "#000",
+                    padding: "0.5rem 1rem",
+                    "border-radius": "9999px",
+                    "font-weight": "bold",
+                    "box-shadow": "0 0 5px #a6ff00, 0 0 15px #a6ff00",
+                    transition: "background-color 0.3s",
+                },
+                ".btn-neon:hover": {
+                    "background-color": "#b5ff33",
+                },
+            });
+        },
+    ],
 };

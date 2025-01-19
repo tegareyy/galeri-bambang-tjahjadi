@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
     @vite('resources/css/app.css')
 </head>
 
@@ -190,7 +191,8 @@
     {{-- hero 4 --}}
     <section class="w-full min-h-screen bg-white mt-36">
         <div class="row">
-            <div class="col text-[100px] pt-24 pl-24 text-abuCoklat justify-items-start font-serif font-semibold leading-[0.8]">
+            <div
+                class="col text-[100px] pt-24 pl-24 text-abuCoklat justify-items-start font-serif font-semibold leading-[0.8]">
                 <h1>Who is</h1>
                 <h1>me?</h1>
             </div>
@@ -198,7 +200,8 @@
         <div class="row flex justify-center">
             {{-- image --}}
             <div class="bg-cover bg-object">
-                <img src="../img/hero1.jpg" alt="" class="rounded-2xl w-[400px] h-[450px] -top-10 -right-4 relative">
+                <img src="../img/hero1.jpg" alt=""
+                    class="rounded-2xl w-[400px] h-[450px] -top-10 -right-4 relative">
             </div>
             <div class="col text-6xl justify-items-start -right-14 leading-[4.5rem] relative">
                 <p class="font-serif">Bambang Tjahjadi seorang</p>
@@ -208,7 +211,9 @@
             </div>
         </div>
 
-            <button type="submit" class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold -left-8 -top-28 relative"><span class="font-inter">Get Ticket</span></button>
+        <button type="submit"
+            class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold -left-8 -top-28 relative"><span
+                class="font-inter">Get Ticket</span></button>
     </section>
     {{-- end hero 4 --}}
 
@@ -222,7 +227,9 @@
                 <p class="font-serif text-6xl font-semibold">now.</p>
             </div>
 
-            <button type="submit" class="border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold mt-10">See more</button>
+            <button type="submit"
+                class="border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold mt-10">See
+                more</button>
 
             <div class="row mt-36">
                 <div class="grid grid-cols-4 justify-items-center justify-stretch px-20">
@@ -244,7 +251,31 @@
     </section>
     {{-- end hero 5 --}}
 
+    {{-- hero 6 --}}
+    <section class="w-full min-h-screen">
+        <div class="container">
+            <div class="row">
+                {{-- bg black --}}
+                <div
+                    class="flex flex-col items-center justify-center w-[1200px] h-[550px] mx-auto mt-[42px] bg-cover bg-object rounded-3xl relative bg-blackDrop font-serif">
+                    {{-- end bg black --}}
+                    <p class="shadow-lg max-h-max text-neon text-white text-4xl font-semibold">Temukan Pameran Keris
+                        di Bagian <span class="text-neonGreen">Untuk
+                            Anda.</span></p>
+                    <div class="text-white mt-10">
+                        <p>Sejak pertama kali Anda mengunjungi pameran ini, kami mulai mengenali minat dan ketertarikan
+                            Anda. Saat Anda</p>
+                        <p>menjelajahi koleksi kami lebih jauh,<span class="text-neonGreen"> Anda akan menemukan rekomendasu keris yang
+                                dipersonalisasi</span></p>
+                        <p>sejarah,asal-usul, da ornamen favorit anda</p>
+                    </div>
+                    <button type="submit" class="border-black border px-7 py-2.5 rounded-full bg-lime-400 text-blackDrop text-lg font-semibold mt-7">Let's Go</button>
+                </div>
+            </div>
 
+        </div>
+    </section>
+    {{-- end hero 6 --}}
     <div class="mb-96"></div>
 
 </body>
