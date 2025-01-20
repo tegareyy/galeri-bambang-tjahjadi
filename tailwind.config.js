@@ -32,6 +32,8 @@ export default {
                 redDrop: "#ff1212",
                 abuCoklat: "#adadad",
                 neonGreen: "#a6ff00",
+                abuTerang: "#f0f0f0",
+                abuCard: "#d9d9d9",
             },
 
             boxShadow: {
