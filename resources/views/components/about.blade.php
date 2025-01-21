@@ -105,6 +105,19 @@
             </div>
         </div>
 
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+        {{-- belum siap --}}
+
         {{-- konten kanan --}}
         <div class="w-1/2 pl-3 flex justify-start mt-52">
             <div class="bg-white p-4 rounded-lg shadow-md mb-8">

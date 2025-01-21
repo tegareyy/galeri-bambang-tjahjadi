@@ -16,7 +16,7 @@
 
     @include('layouts.main')
 
-    @include('components.about')
+    
 
     <div class="mb-96"></div>
 
