@@ -37,7 +37,7 @@
     {{-- end section 1 --}}
 
     {{-- section 2 --}}
-    <section class="container mx-auto mt-20 bg-orange-400 border-2 border-solid border-blackDrop">
+    <section class="container mx-auto mt-20 bg-white">
         <div class="row mt-20">
             <h1 class="text-5xl font-serif font-semibold tracking-wider">Mengenal Bambang Tjahjadi</h1>
         </div>
@@ -57,24 +57,24 @@
         {{-- card --}}
         <div class="row flex justify-center mt-16">
             <div class="grid grid-cols-3 gap-x-20 ">
-                <div class="border-2 border-solid border-blackDrop p-8 mx-auto bg-cream2">
-                    <h1 class="text-xl font-serif font-semibold tracking-wider text-blue-700">Pendidikan Bambang</h1>
+                <div class="p-8 mx-auto bg-blackDrop text-white">
+                    <h1 class="text-xl font-serif font-semibold tracking-wider">Pendidikan Bambang</h1>
                     <div class="mt-4 font-serif">
                         <p>Memiliki koleksi wayang kulit langka dari</p>
                         <p>berbagai daerah di Indonesia, beberapa di</p>
                         <p>antaranya berusia ratusan tahun.</p>
                     </div>
                 </div>
-                <div class="border-2 border-solid border-blackDrop p-8 mx-auto bg-cream2">
-                    <h1 class="text-xl font-serif font-semibold tracking-wider text-blue-700">Perjalanan Melukis</h1>
+                <div class="p-8 mx-auto bg-blackDrop text-white">
+                    <h1 class="text-xl font-serif font-semibold tracking-wider">Perjalanan Melukis</h1>
                     <div class="mt-4 font-serif">
                         <p>Aktif dalam upaya pelestarian dan edukasi</p>
                         <p>tentang seni tradisional Indonesia melalui</p>
                         <p>pameran dan workshop.</p>
                     </div>
                 </div>
-                <div class="border-2 border-solid border-blackDrop p-8 mx-auto bg-cream2">
-                    <h1 class="text-xl font-serif font-semibold tracking-wider text-blue-700">Penghargaan</h1>
+                <div class="p-8 mx-auto bg-blackDrop text-white">
+                    <h1 class="text-xl font-serif font-semibold tracking-wider">Penghargaan</h1>
                     <div class="mt-4 font-serif">
                         <p>Menerima berbagai penghargaan atas</p>
                         <p>dedikasinya dalam melestarikan warisan</p>
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <button type="submit" class="font-serif bg-blue-600 p-5 rounded-3xl my-20 text-white mx-auto">
+        <button type="submit" class="font-serif bg-blackDrop p-5 rounded-3xl my-20 text-white mx-auto">
             Pelajari Lebih Lanjut
         </button>
     </section>
