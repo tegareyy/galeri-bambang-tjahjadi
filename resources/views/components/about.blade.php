@@ -90,41 +90,64 @@
     {{-- end section 2 --}}
 
     {{-- section 3 --}}
+    <div class="container mt-20">
+        <div class="row">
+            <h1 class="font-serif text-5xl font-bold tracking-widest">Perjalanan Karir</h1>
+        </div>
+    </div>
+    {{-- content section 3 --}}
     <div class="flex justify-center relative mt-16">
         {{-- garis tengah --}}
         <div class="absolute h-full border-l-2 border-blue-500 left-1/2 transform -translate-x-1/2"></div>
 
         {{-- konten kiri --}}
-        <div class="w-1/2 pr-3 flex justify-end">
-            <div class="bg-white p-4 rounded-xl w-auto max-h-fit justify-items-start shadow-2xl mb-8 font-serif">
+        <div class="w-1/2 pr-3 flex justify-end mt-5">
+            {{-- kiri 1 --}}
+            <div
+                class="bg-white p-4 rounded-xl w-auto max-h-fit justify-items-start shadow-2xl mb-8 font-serif absolute">
                 <h3 class="text-blue-600 font-bold text-xl">1980</h3>
                 <div class="py-4 justify-items-start">
                     <p>Memulai perjalanan sebagai kolektor wayang kulit dan keris</p>
                     <p>tradisional.</p>
                 </div>
             </div>
-        </div>
 
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-        {{-- belum siap --}}
-
-        {{-- konten kanan --}}
-        <div class="w-1/2 pl-3 flex justify-start mt-52">
-            <div class="bg-white p-4 rounded-lg shadow-md mb-8">
-                <h3 class="text-blue-600 font-bold">1995</h3>
-                <p>Mendirikan museum pribadi untuk memamerkan koleksi seni tradisional.</p>
+            {{-- kiri 2 --}}
+            <div class="relative mt-[410px]">
+                <div class="bg-white p-4 rounded-xl w-auto max-h-fit justify-items-start shadow-2xl mb-8 font-serif">
+                    <h3 class="text-blue-600 font-bold text-xl">2010</h3>
+                    <div class="py-4 justify-items-start">
+                        <p>Menerima penghargaan nasional atas kontribusinya dalam</p>
+                        <p>pelestarian budaya.</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+        {{-- konten kanan --}}
+        <div class="w-1/2 pl-3 flex justify-start mt-56">
+
+            {{-- kanan 1 --}}
+            <div class="bg-white p-4 max-h-fit rounded-lg mb-8 justify-items-start shadow-2xl absolute">
+                <h3 class="text-blue-600 font-bold text-xl font-serif">1995</h3>
+                <div class="justify-items-start font-serif py-4">
+                    <p>Mendirikan museum pribadi untuk memamerkan koleksi seni</p>
+                    <p>tradisional.</p>
+                </div>
+            </div>
+
+            {{-- kanan 2 --}}
+            <div class="relative mt-[410px]">
+                <div class="bg-white px-4 pt-3 pb-2 max-h-fit rounded-lg mb-8 justify-items-start shadow-2xl">
+                    <h3 class="text-blue-600 font-bold text-xl font-serif">Sekarang</h3>
+                    <div class="justify-items-start font-serif py-4">
+                        <p>Aktif mengadakan pameran dan workshop untuk generasi muda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
     {{-- end section 3 --}}
 
