@@ -15,15 +15,16 @@
     @include('components.navbar')
 
     {{-- section 1 --}}
-    <div class="container mt-32">
+    <div class="container mt-32 mb-96">
         <div class="font-serif font-semibold">
             <h1 class="flex text-[50px] ml-80 justify-start tracking-widest">A Story Of</h1>
             <h1 class="text-7xl tracking-widest">Bambang Tjahjadi</h1>
         </div>
 
-        <div class="grid grid-cols-4 justify-items-center border-2 border-black mt-16 mx-auto">
+        {{-- image --}}
+        <div class="grid grid-cols-4 justify-items-center mt-16 mx-auto h-[500px] max-w-max gap-x-4">
             <div class="flex items-center">
-                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-[450px] rounded-2xl">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-[400px] rounded-2xl">
             </div>
 
             <div class="">
@@ -35,9 +36,25 @@
             </div>
 
             <div class="flex items-center">
-                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-[450px] rounded-2xl">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-[400px] rounded-2xl">
             </div>
         </div>
+        {{-- end image --}}
+
+
+        <div class="grid grid-cols-2">
+            <div class="text-8xl tracking-widest font-serif text-justify font-semibold">
+                <h1 class="text-abuCoklat">Who is</h1>
+                <h1 class="text-abuCoklat">Bambang</h1>
+                <h1 class="text-abuCoklat">Tjahjadi?</h1>
+            </div>
+            <div class="text-7xl leading-relaxed font-serif text-justify">
+                <h1>Who is</h1>
+                <h1>Bambang</h1>
+                <h1>Tjahjadi</h1>
+            </div>
+        </div>
+        
     </div>
     {{-- end section 1 --}}
 
