@@ -1,8 +1,7 @@
 <!-- Navbar -->
-<div class="col">
-    <div class="row">
-        <div class="flex justify-center mt-8">
-            <ul class="flex gap-x-24">
+<div class="row">
+        <div class="flex justify-center fixed top-0 left-0 w-full z-50 bg-blackDrop text-white">
+            <ul class="flex gap-x-24 py-6">
                 <li>
                     <a href="" class="font-semibold font-inter text-2xl">Home</a>
                 </li>
@@ -17,6 +16,5 @@
                 </li>
             </ul>
         </div>
-    </div>
 </div>
 <!-- end Navbar -->

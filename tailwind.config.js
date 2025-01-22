@@ -45,7 +45,8 @@ export default {
             },
 
             backgroundImage: {
-                "hero-pattern": "url('/img/hero1.jpg')",
+                "custom-radial":
+                    "radial-gradient(circle farthest-side at 63% 50%, #a2c3eb 0%, #f2f3ed 80%)",
             },
 
             fontFamily: {

@@ -1,29 +1,33 @@
 <!-- Hero 1 -->
-<div class="max-w-full max-h-full">
+
+<!-- end Hero 1 -->
+
+<!-- Hero 2 --><!-- Hero 1 -->
+<div class="max-w-full max-h-full mt-28" style="background: radial-gradient(circle closest-side at 63% 50%, #a2c3eb 0%, #f2f3ed 60%);">
     <div class="container">
         <!-- foto atas -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-36 top-32 -right-56 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-top-1.jpeg" alt=""
+                    class="w-36 top-32 -right-56 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-32 h-44 top-44 -right-40 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-top-2.jpeg" alt=""
+                    class="w-32 h-44 top-44 -right-40 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-52 h-36 mt-36 left-28 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-hori-top-3.jpeg" alt=""
+                    class="w-52 h-36 mt-36 left-28 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-36 h-56 -left-10 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-top-4.jpeg" alt=""
+                    class="w-36 h-56 -left-10 relative object-cover rounded-sm">
             </div>
         </div>
         <!-- foto atas -->
 
         <!-- text middle -->
-        <div class="row mt-[65px] text-6xl ">
+        <div class="row mt-[65px] text-6xl">
             <span class="font-serif font-semibold">SELAMAT DATANG DI GALERI</span>
             <div class="font-serif font-semibold">
                 BAMBANG TJAHJADI
@@ -34,30 +38,27 @@
         <!-- foto bawah -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-28 h-32 -top-5 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-bottom-1.jpeg" alt=""
+                    class="w-28 h-32 -top-5 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-[140px] h-32 left-6 -bottom-14 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-bottom-2.jpeg" alt=""
+                    class="w-[140px] h-32 left-6 -bottom-14 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-60 h-32 mt-36 -left-12 -bottom-9 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-bottom-3.jpeg" alt=""
+                    class="w-60 h-32 mt-36 -left-12 -bottom-9 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-40 h-36 -top-2 -left-28 relative object-cover rounded-md">
+                <img src="../img/landingPage/img-hori-bottom-4.jpeg" alt=""
+                    class="w-40 h-36 -top-2 -left-28 relative object-cover rounded-sm">
             </div>
         </div>
         <!-- foto bawah -->
     </div>
-
-
 </div>
 <!-- end Hero 1 -->
 
-<!-- Hero 2 -->
 <div class="w-full min-h-screen bg-blackDrop mt-10 pb-44 relative">
     <div class="container mx-auto text-white justify-items-center">
         <!-- text -->
@@ -227,11 +228,14 @@
                 <div class="text-white mt-10">
                     <p>Sejak pertama kali Anda mengunjungi pameran ini, kami mulai mengenali minat dan ketertarikan
                         Anda. Saat Anda</p>
-                    <p>menjelajahi koleksi kami lebih jauh,<span class="text-neonGreen"> Anda akan menemukan rekomendasu keris yang
+                    <p>menjelajahi koleksi kami lebih jauh,<span class="text-neonGreen"> Anda akan menemukan
+                            rekomendasu keris yang
                             dipersonalisasi</span></p>
                     <p>sejarah,asal-usul, da ornamen favorit anda</p>
                 </div>
-                <button type="submit" class="border-black border px-7 py-2.5 rounded-full bg-lime-400 text-blackDrop text-lg font-semibold mt-7">Let's Go</button>
+                <button type="submit"
+                    class="border-black border px-7 py-2.5 rounded-full bg-lime-400 text-blackDrop text-lg font-semibold mt-7">Let's
+                    Go</button>
             </div>
         </div>
 
