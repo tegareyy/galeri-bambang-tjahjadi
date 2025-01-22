@@ -178,32 +178,45 @@
 
 {{-- hero 5 --}}
 <section class="w-full min-h-screen">
-    <div class="container mt-28">
-        <div class="row justify-items-center">
-            <p class="font-serif text-6xl font-semibold">What's</p>
-            <p class="font-serif text-6xl font-semibold">happening at the</p>
-            <p class="font-serif text-6xl font-semibold">museum right</p>
-            <p class="font-serif text-6xl font-semibold">now.</p>
+    <div class="mt-28">
+        <div class="row justify-items-center font-serif text-6xl font-semibold">
+            <p>What's</p>
+            <p>happening at the</p>
+            <p class="text-abuCoklat">museum right</p>
+            <p class="text-abuCoklat">now.</p>
         </div>
 
-        <button type="submit"
-            class="border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold mt-10">See
-            more</button>
+        {{-- image --}}
+        <div class="grid grid-cols-4 mx-auto auto-cols-max mt-5">
+            <div class="grid grid-rows-2 gap-y-7 filter grayscale-[90%]">
+                <img src="../img/landingPage/section-5/img-1.jpg" alt="Foto 1"
+                    class="w-[450px] h-64 rounded-2xl object-cover">
+                <img src="../img/landingPage/section-5/img-2.jpg" alt="Foto 2"
+                    class="w-[450px] h-64 rounded-2xl object-cover">
+            </div>
 
-        <div class="row mt-36">
-            <div class="grid grid-cols-4 justify-items-center justify-stretch px-20">
-                <div>
-                    <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
+            <div class="flex items-center justify-center filter grayscale-[90%]">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="Foto 3"
+                    class="w-[350px] h-[430px] rounded-2xl object-cover">
+            </div>
+
+            <div class="relative h-full">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="Project Image 3"
+                    class="w-full h-full object-cover rounded-2xl">
+                <div class="absolute inset-0 flex items-center justify-center rounded-2xl bg-black bg-opacity-50">
+                    <div class="text-justify text-white left-0 bottom-0 absolute p-5">
+                        <h1 class="text-5xl">Hall of Frame</h1>
+                        <p>with superhub collab, organize and</p>
+                        <p>prioritize feature request to better</p>
+                        <p>understand with you any with</p>
+                        <p>superhub collab,</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
-                </div>
-                <div>
-                    <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
-                </div>
-                <div>
-                    <img src="../img/hero1.jpg" alt="Foto 1" class="w-[310px] h-96 rounded-md object-cover">
-                </div>
+            </div>
+
+            <div class="flex items-center justify-center filter grayscale-[90%]">
+                <img src="../img/landingPage/section-5/img-4.jpg" alt="Foto 5"
+                    class="w-[350px] h-[430px] rounded-2xl object-cover">
             </div>
         </div>
     </div>

@@ -15,29 +15,34 @@
     @include('components.navbar')
 
     {{-- section 1 --}}
-    <section class="container mx-auto mt-32">
-        <div class="row">
-            <h1 class="text-7xl font-bold tracking-widest">The Story Of Bambang Tjahjadi</h1>
+    <div class="container mt-32">
+        <div class="font-serif font-semibold">
+            <h1 class="flex text-[50px] ml-80 justify-start tracking-widest">A Story Of</h1>
+            <h1 class="text-7xl tracking-widest">Bambang Tjahjadi</h1>
         </div>
-        <div class="row flex justify-center gap-x-5 mt-32">
-            <div class="col">
-                <img src="../img/hero1.jpg" alt="" class="w-52 h-[500px] object-cover rounded-3xl">
+
+        <div class="grid grid-cols-4 justify-items-center border-2 border-black mt-16 mx-auto">
+            <div class="flex items-center">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-[450px] rounded-2xl">
             </div>
-            <div class="col">
-                <img src="../img/hero1.jpg" alt="" class="w-52 h-[500px] object-cover rounded-3xl">
+
+            <div class="">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-full rounded-2xl">
             </div>
-            <div class="col">
-                <img src="../img/hero1.jpg" alt="" class="w-52 h-[500px] object-cover rounded-3xl">
+
+            <div>
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-full -mt-10 rounded-2xl">
             </div>
-            <div class="col">
-                <img src="../img/hero1.jpg" alt="" class="w-52 h-[500px] object-cover rounded-3xl">
+
+            <div class="flex items-center">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="" class="w-60 h-[450px] rounded-2xl">
             </div>
         </div>
-    </section>
+    </div>
     {{-- end section 1 --}}
 
     {{-- section 2 --}}
-    <section class="container mx-auto mt-20 bg-white">
+    {{-- <section class="container mx-auto mt-20 bg-white">
         <div class="row mt-20">
             <h1 class="text-5xl font-serif font-semibold tracking-wider">Mengenal Bambang Tjahjadi</h1>
         </div>
@@ -54,7 +59,7 @@
                     class="font-semibold">1975</span>.</p>
         </div>
 
-        {{-- card --}}
+    
         <div class="row flex justify-center mt-16">
             <div class="grid grid-cols-3 gap-x-20 ">
                 <div class="p-8 mx-auto bg-blackDrop text-white">
@@ -86,7 +91,7 @@
         <button type="submit" class="font-serif bg-blackDrop p-5 rounded-3xl my-20 text-white mx-auto">
             Pelajari Lebih Lanjut
         </button>
-    </section>
+    </section> --}}
     {{-- end section 2 --}}
 
     {{-- section 3 --}}
