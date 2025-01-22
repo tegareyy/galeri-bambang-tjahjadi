@@ -34,6 +34,7 @@ export default {
                 neonGreen: "#a6ff00",
                 abuTerang: "#f0f0f0",
                 abuCard: "#d9d9d9",
+                brownLight: "#ba8272",
             },
 
             boxShadow: {

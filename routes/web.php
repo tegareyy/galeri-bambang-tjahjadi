@@ -1,11 +1,8 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [UserController::class, 'index']);
 
-Route::get('/about', function () {
-    return view('components.about');
-});
+Route::get('/about', [UserController::class, 'about']);

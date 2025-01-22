@@ -9,10 +9,14 @@ class UserController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
-        //
+    public function index(){
+        return view('index');
     }
+
+    public function about() {
+        return view('components.about');
+    }
+    
 
     /**
      * Show the form for creating a new resource.

@@ -5,19 +5,19 @@
         <!-- foto atas -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/landingPage/section-1/img-top-1.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-top-1.jpg" alt=""
                     class="w-36 top-32 -right-56 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/section-1/img-top-2.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-top-2.jpg" alt=""
                     class="w-32 h-44 top-44 -right-40 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/section-1/img-hori-top-3.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-hori-top-3.jpg" alt=""
                     class="w-52 h-36 mt-36 left-28 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/section-1/img-top-4.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-top-4.jpg" alt=""
                     class="w-36 h-56 -left-10 relative object-cover rounded-sm">
             </div>
         </div>
@@ -35,7 +35,7 @@
         <!-- foto bawah -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/landingPage/section-1/img-bottom-1.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-bottom-1.jpg" alt=""
                     class="w-28 h-32 -top-5 relative object-cover rounded-sm">
             </div>
             <div class="col ">
@@ -43,11 +43,11 @@
                     class="w-[140px] h-32 left-6 -bottom-14 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/section-1/img-bottom-3.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-hori-bottom-3.jpg" alt=""
                     class="w-60 h-32 mt-36 -left-12 -bottom-9 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/section-1/img-hori-bottom-4.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-hori-bottom-4.jpg" alt=""
                     class="w-40 h-36 -top-2 -left-28 relative object-cover rounded-sm">
             </div>
         </div>
