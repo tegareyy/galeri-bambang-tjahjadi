@@ -47,6 +47,7 @@ export default {
             backgroundImage: {
                 "custom-radial":
                     "radial-gradient(circle farthest-side at 63% 50%, #a2c3eb 0%, #f2f3ed 80%)",
+                "custom-image": "url('../img/background/prisma-line.jpg'",
             },
 
             fontFamily: {

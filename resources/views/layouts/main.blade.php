@@ -1,26 +1,23 @@
 <!-- Hero 1 -->
-
-<!-- end Hero 1 -->
-
-<!-- Hero 2 --><!-- Hero 1 -->
-<div class="max-w-full max-h-full mt-28" style="background: radial-gradient(circle closest-side at 63% 50%, #a2c3eb 0%, #f2f3ed 60%);">
+<div class="max-w-full max-h-full mt-28"
+    style="background: radial-gradient(circle closest-side at 63% 50%, #a2c3eb 0%, #f2f3ed 60%);">
     <div class="container">
         <!-- foto atas -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/landingPage/img-top-1.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-top-1.jpeg" alt=""
                     class="w-36 top-32 -right-56 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/img-top-2.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-top-2.jpeg" alt=""
                     class="w-32 h-44 top-44 -right-40 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/img-hori-top-3.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-hori-top-3.jpeg" alt=""
                     class="w-52 h-36 mt-36 left-28 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/img-top-4.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-top-4.jpeg" alt=""
                     class="w-36 h-56 -left-10 relative object-cover rounded-sm">
             </div>
         </div>
@@ -38,19 +35,19 @@
         <!-- foto bawah -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/landingPage/img-bottom-1.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-bottom-1.jpeg" alt=""
                     class="w-28 h-32 -top-5 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/img-bottom-2.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-bottom-2.jpeg" alt=""
                     class="w-[140px] h-32 left-6 -bottom-14 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/img-bottom-3.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-bottom-3.jpeg" alt=""
                     class="w-60 h-32 mt-36 -left-12 -bottom-9 relative object-cover rounded-sm">
             </div>
             <div class="col ">
-                <img src="../img/landingPage/img-hori-bottom-4.jpeg" alt=""
+                <img src="../img/landingPage/section-1/img-hori-bottom-4.jpeg" alt=""
                     class="w-40 h-36 -top-2 -left-28 relative object-cover rounded-sm">
             </div>
         </div>
@@ -59,11 +56,13 @@
 </div>
 <!-- end Hero 1 -->
 
-<div class="w-full min-h-screen bg-blackDrop mt-10 pb-44 relative">
+<!-- Hero 2 -->
+<div class="w-full pb-[70px] bg-blackDrop mt-10 relative"
+    style="background-image: url(../img/background/prisma-line.jpg)">
     <div class="container mx-auto text-white justify-items-center">
         <!-- text -->
         <div class="row flex">
-            <div class="col text-5xl text-justify pt-24">
+            <div class="col text-7xl text-justify pt-24">
                 <p class="font-serif uppercase">all type of</p>
                 <p class="font-serif uppercase">projects</p>
             </div>
@@ -79,20 +78,24 @@
         <!-- image -->
         <div class="flex row justify-between">
             <div class="col">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-56 -left-44 -bottom-16 relative object-cover rounded-md">
+                <img src="../img/landingPage/section-2/img-1.jpeg" alt=""
+                    class="w-56 -left-44 -bottom-16 relative object-cover rounded-sm">
+                    <p class="text-9xl -top-[350px] -left-[300px] relative">.</p>
             </div>
-            <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-48 h-72 -left-24 -bottom-64 relative object-cover rounded-md">
+            <div class="col">
+                <img src="../img/landingPage/section-2/img-2.jpeg" alt=""
+                    class="w-48 h-72 -left-24 -bottom-72 relative object-cover rounded-sm">
+                    <p class="text-9xl -top-32 -right-3 relative">.</p>
             </div>
-            <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-56 h-96 -right-28 -top-3 relative object-cover rounded-md">
+            <div class="col">
+                <img src="../img/landingPage/section-2/img-3.jpeg" alt=""
+                    class="w-56 h-96 -right-28 -top-3 relative object-cover rounded-sm">
+                    <p class="text-9xl -top-32 -right-[240px] relative">.</p>
             </div>
-            <div class="col ">
-                <img src="../img/hero1.jpg" alt=""
-                    class="w-52 h-72 -right-[275px] -bottom-5 relative object-cover rounded-md">
+            <div class="col">
+                <img src="../img/landingPage/section-2/img-4.jpeg" alt=""
+                    class="w-52 h-72 -right-[275px] -bottom-5 relative object-cover rounded-sm">
+                    <p class="text-9xl -right-[165px] -top-[390px] relative">.</p>
             </div>
         </div>
         <!-- end image -->
