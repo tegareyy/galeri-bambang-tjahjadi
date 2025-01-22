@@ -43,7 +43,7 @@
 
 
         <div class="grid grid-cols-2">
-            <div class="text-8xl tracking-widest font-serif text-justify font-semibold">
+            <div class="text-8xl tracking-wider font-serif text-justify font-semibold">
                 <h1 class="text-abuCoklat">Who is</h1>
                 <h1 class="text-abuCoklat">Bambang</h1>
                 <h1 class="text-abuCoklat">Tjahjadi?</h1>
