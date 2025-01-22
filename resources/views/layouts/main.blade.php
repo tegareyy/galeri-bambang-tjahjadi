@@ -80,22 +80,22 @@
             <div class="col">
                 <img src="../img/landingPage/section-2/img-1.jpeg" alt=""
                     class="w-56 -left-44 -bottom-16 relative object-cover rounded-sm">
-                    <p class="text-9xl -top-[350px] -left-[300px] relative">.</p>
+                <p class="text-9xl -top-[350px] -left-[300px] relative">.</p>
             </div>
             <div class="col">
                 <img src="../img/landingPage/section-2/img-2.jpeg" alt=""
                     class="w-48 h-72 -left-24 -bottom-72 relative object-cover rounded-sm">
-                    <p class="text-9xl -top-32 -right-3 relative">.</p>
+                <p class="text-9xl -top-32 -right-3 relative">.</p>
             </div>
             <div class="col">
                 <img src="../img/landingPage/section-2/img-3.jpeg" alt=""
                     class="w-56 h-96 -right-28 -top-3 relative object-cover rounded-sm">
-                    <p class="text-9xl -top-32 -right-[240px] relative">.</p>
+                <p class="text-9xl -top-32 -right-[240px] relative">.</p>
             </div>
             <div class="col">
                 <img src="../img/landingPage/section-2/img-4.jpeg" alt=""
                     class="w-52 h-72 -right-[275px] -bottom-5 relative object-cover rounded-sm">
-                    <p class="text-9xl -right-[165px] -top-[390px] relative">.</p>
+                <p class="text-9xl -right-[165px] -top-[390px] relative">.</p>
             </div>
         </div>
         <!-- end image -->
@@ -104,50 +104,45 @@
 <!-- end Hero 2 -->
 
 {{-- hero 3 --}}
-<section class="w-full min-h-screen bg-cream2">
+<section class="w-full bg-cream2">
     <div class="container">
-        <div class="row text-7xl text-justify mt-20 ml-[159px]">
-            <p class="font-semibold font-serif">Coming up</p>
-            <p class="font-semibold font-serif">events</p>
+        <div class="row text-8xl text-justify mt-20 ml-[108px]">
+            <p class="font-bold font-serif text-abuCoklat">Coming up</p>
+            <p class="font-bold font-serif"><span class="text-abuCoklat">ev</span> ents</p>
         </div>
 
         {{-- image --}}
-        <div class="w-[1200px] h-[550px] mx-auto mt-[42px] bg-cover bg-object rounded-3xl relative"
-            style="background-image: url(../img/hero1.jpg)"> <!-- make center image -->
+        <div class="w-[1100px] h-[550px] mx-auto -mt-[85px] bg-cover bg-object rounded-3xl"
+            style="background-image: url(../img/background/gallery.jpg)"> <!-- make center image -->
 
             {{-- text in image --}}
-            <div class="text-justify bottom-10 left-7 p-4 absolute">
-                <h1 class="text-white text-7xl font-serif">Surabaya Gallery</h1>
-                <h1 class="text-white text-7xl font-serif">exhbition</h1>
+            <div class="text-justify p-4">
+                <div class="mt-[360px]">
+                    <h1 class="text-white text-7xl font-serif ">Surabaya Gallery</h1>
+                    <h1 class="text-white text-7xl font-serif">exhbition</h1>
+                </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="row mt-7 flex">
-                <div class="col text-xl ml-[160px] text-justify font-semibold">
+            <div class="grid grid-cols-2 justify-items-center text-lg font-semibold leading-9 mx-44 mt-10">
+                <div class="justify-items-start">
                     <p class="text-redDrop">Monday, 17 2025</p>
-                    <div class="mt-2">
-                        <p>with superhub collab, organize and prioritize feature request to</p>
-                        <p>better understand with you any with superhub collab, organize</p>
-                        <p>and prioritize feature request to better understand with you</p>
-                        <p>any</p>
-                    </div>
+                    <p>with superhub collab, organize and prioritize feature request to</p>
+                    <p>better understand with you any with superhub collab, organize</p>
+                    <p>and prioritize feature request to better understand with you</p>
+                    <p>any</p>
 
-                    <div class="mt-9">
-                        <button type="submit"
-                            class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white">Get
-                            Ticket</button>
-                    </div>
+                    <button type="submit"
+                        class="border-solid border-black border px-9 py-2 rounded-full bg-black text-white mt-10">Get
+                        Ticket</button>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="col text-xl font-semibold justify-items-end mr-40 -mt-[110px]">
-                        <p>with superhub collab, organize and prioritize feature request to</p>
-                        <p>better understand with you any with superhub collab, organize</p>
-                        <p>and prioritize feature request to better understand with you</p>
-                        <p>any</p>
-                    </div>
+
+                <div class="justify-items-end mt-36">
+                    <p>with superhub collab, organize and prioritize feature request to</p>
+                    <p>better understand with you any with superhub collab, organize</p>
+                    <p>and prioritize feature request to better understand with you</p>
+                    <p>any</p>
                 </div>
             </div>
         </div>
@@ -155,7 +150,7 @@
 {{-- end hero 3 --}}
 
 {{-- hero 4 --}}
-<section class="w-full min-h-screen bg-white mt-36">
+<section class="w-full bg-white mt-36 pb-20">
     <div class="row">
         <div
             class="col text-[100px] pt-24 pl-24 text-abuCoklat justify-items-start font-serif font-semibold leading-[0.8]">
@@ -163,23 +158,21 @@
             <h1>me?</h1>
         </div>
     </div>
-    <div class="row flex justify-center">
-        {{-- image --}}
-        <div class="bg-cover bg-object">
-            <img src="../img/hero1.jpg" alt=""
-                class="rounded-2xl w-[400px] h-[450px] -top-10 -right-4 relative">
+
+    <div class="grid grid-cols-2 justify-items-center mx-[60px]">
+        <div class="bg-cover bg-object -mt-10">
+            <img src="../img/landingPage/section-4/hero-1.jpg" alt=""
+                class="rounded-2xl w-[400px] h-[450px] object-cover shadow-2xl shadow-abuCoklat">
         </div>
-        <div class="col text-6xl justify-items-start -right-14 leading-[4.5rem] relative">
+        <div class="text-justify font-semibold leading-[1.3] text-6xl -ml-40">
             <p class="font-serif">Bambang Tjahjadi seorang</p>
-            <p class="font-serif">pelukis yang mengganti</p>
-            <p class="font-serif">namanya karena sakit</p>
-            <p class="font-serif">sakitan</p>
+            <p class="font-serif">pelukis yang melukis</p>
+            <p class="font-serif">dengan lidi</p>
+            <button type="submit"
+                class="border-solid border-black border px-6 py-3 rounded-full bg-black text-white text-xl font-semibold"><span
+                    class="font-inter">About Me</span></button>
         </div>
     </div>
-
-    <button type="submit"
-        class="border-solid border-black border px-7 py-3 rounded-full bg-black text-white text-xl font-semibold -left-8 -top-28 relative"><span
-            class="font-inter">Get Ticket</span></button>
 </section>
 {{-- end hero 4 --}}
 
