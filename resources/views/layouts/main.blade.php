@@ -24,7 +24,7 @@
         <!-- foto atas -->
 
         <!-- text middle -->
-        <div class="row mt-[65px] text-6xl">
+        <div class="row mt-[65px] text-8xl">
             <span class="font-serif font-semibold">SELAMAT DATANG DI GALERI</span>
             <div class="font-serif font-semibold">
                 BAMBANG TJAHJADI
@@ -57,20 +57,20 @@
 <!-- end Hero 1 -->
 
 <!-- Hero 2 -->
-<div class="w-full pb-[70px] bg-blackDrop mt-10 relative"
+<div class="w-full pb-[70px] bg-brownSemiLight mt-10 relative"
     style="background-image: url(../img/background/prisma-line.jpg)">
     <div class="container mx-auto text-white justify-items-center">
         <!-- text -->
-        <div class="row flex">
-            <div class="col text-7xl text-justify pt-24">
-                <p class="font-serif uppercase">all type of</p>
-                <p class="font-serif uppercase">projects</p>
+        <div class="grid grid-cols-2 justify-items-center text-abuCoklat">
+            <div class="text-7xl text-justify font-semibold pt-24 relative -mr-20">
+                <p class="font-serif">Lukisan memukau,</p>
+                <p class="font-serif">tercipta dari</p>
+                <p class="font-serif">sentuhan lidi!</p>
             </div>
-            <div class="col text-xl ml-8 text-justify pt-44">
-                <p>with superhub collab, organize and prioritize feature request to</p>
-                <p>better understand with you any with superhub collab, organize</p>
-                <p>and prioritize feature request to better understand with you</p>
-                <p>any</p>
+            <div class="text-lg text-justify pt-52 relative -ml-10">
+                <p>Lukisan ini dibuat dengan teknik unik menggunakan lidi sebagai alat utamanya. Setiap</p>
+                <p>detailnya mencerminkan ketelitian dan kreativitas tinggi, menjadikan sebuah karya</p>
+                <p>seni yang memukau dan penuh keajaiban</p>
             </div>
         </div>
         <!-- end text -->
@@ -89,8 +89,8 @@
             </div>
             <div class="col">
                 <img src="../img/landingPage/section-2/img-3.jpeg" alt=""
-                    class="w-56 h-96 -right-28 -top-3 relative object-cover rounded-sm">
-                <p class="text-9xl -top-32 -right-[240px] relative">.</p>
+                    class="w-56 h-96 -right-28 -bottom-7 relative object-cover rounded-sm">
+                <p class="text-9xl -top-24 -right-[240px] relative">.</p>
             </div>
             <div class="col">
                 <img src="../img/landingPage/section-2/img-4.jpeg" alt=""
@@ -103,7 +103,209 @@
 </div>
 <!-- end Hero 2 -->
 
-{{-- hero 3 --}}
+<!-- Hero 3-->
+<section class="p-32 bg-white">
+    <div class="grid grid-cols-2">
+        <div class="justify-items-start">
+            <h1 class="text-6xl font-serif font-semibold">Best seller in 2024</h1>
+        </div>
+
+        <div class="flex justify-end items-end">
+            <a href="#" class="inline-grid text-3xl">See more</a>
+        </div>
+    </div>
+
+    <!-- img -->
+    <div class="grid grid-cols-3 justify-items-stretch mt-8 gap-7 relative">
+        <button class="absolute bg-white rounded-full p-5 top-32 -left-10">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-14">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="absolute bg-white rounded-full p-5 top-32 -right-10">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-14">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div class="text-justify text-xl">
+            <img src="../img/landingPage/section-1/img-bottom-1.jpeg" alt=""
+                class="rounded-lg w-full max-h-[350px] object-cover">
+            <p class="mt-3">Lukisan Gunung</p>
+            <p class="text-lg">$20.00</p>
+            <div class="mt-3 flex gap-2">
+                <button class="py-3 px-9 text-lg bg-blackDrop text-white rounded-3xl">Buy</button>
+                <button class="px-5 text-lg bg-blueOcean text-white rounded-3xl"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                        <path
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="text-justify text-3xl">
+            <img src="../img/landingPage/section-1/img-bottom-2.jpeg" alt=""
+                class="rounded-lg w-full max-h-[350px] object-cover">
+            <p class="mt-3">Lukisan Gunung</p>
+            <p class="text-lg">$20.00</p>
+            <div class="mt-3 flex gap-2">
+                <button class="py-3 px-9 text-lg bg-blackDrop text-white rounded-3xl">Buy</button>
+                <button class="px-5 text-lg bg-blueOcean text-white rounded-3xl"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                        <path
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="text-justify text-3xl">
+            <img src="../img/hero2.jpeg" alt="" class="rounded-lg w-full max-h-[350px] object-cover">
+            <p class="mt-3">Lukisan Gunung</p>
+            <p class="text-lg">$20.00</p>
+            <div class="mt-3 flex gap-2">
+                <button class="py-3 px-9 text-lg bg-blackDrop text-white rounded-3xl">Buy</button>
+                <button class="px-5 text-lg bg-blueOcean text-white rounded-3xl"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                        <path
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-justify text-6xl mt-20">
+        <p class="font-serif font-semibold">New on 2025</p>
+    </div>
+
+    <!-- img -->
+    <div class="grid grid-cols-3 justify-items-stretch mt-8 gap-7">
+        <div class="text-justify text-3xl">
+            <img src="../img/landingPage/section-1/img-bottom-2.jpeg" alt=""
+                class="rounded-lg w-full max-h-[350px] object-cover">
+            <p class="mt-3">Lukisan Gunung</p>
+            <p class="text-lg">$20.00</p>
+            <div class="mt-3 flex gap-2">
+                <button class="py-3 px-9 text-lg bg-blackDrop text-white rounded-3xl">Buy</button>
+                <button class="px-5 text-lg bg-blueOcean text-white rounded-3xl"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                        <path
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="text-justify text-3xl">
+            <img src="../img/landingPage/section-1/img-bottom-1.jpeg" alt=""
+                class="rounded-lg w-full max-h-[350px] object-cover">
+            <p class="mt-3">Lukisan Gunung</p>
+            <p class="text-lg">$20.00</p>
+            <div class="mt-3 flex gap-2">
+                <button class="py-3 px-9 text-lg bg-blackDrop text-white rounded-3xl">Buy</button>
+                <button class="px-5 text-lg bg-blueOcean text-white rounded-3xl"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                        <path
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="text-justify text-3xl">
+            <img src="../img/hero2.jpeg" alt="" class="rounded-lg w-full max-h-[350px] object-cover">
+            <p class="mt-3">Lukisan Gunung</p>
+            <p class="text-lg">$20.00</p>
+            <div class="mt-3 flex gap-2">
+                <button class="py-3 px-9 text-lg bg-blackDrop text-white rounded-3xl">Buy</button>
+                <button class="px-5 text-lg bg-blueOcean text-white rounded-3xl"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                        <path
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end Hero 3 -->
+
+<!-- Hero 4 -->
+<section class="w-full mt-16 pb-20">
+    <div class="row">
+        <div
+            class="col text-[100px] pt-24 pl-24 text-abuCoklat justify-items-start font-serif font-semibold leading-[0.8]">
+            <h1>Who is</h1>
+            <h1>me?</h1>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 justify-items-center mx-[60px]">
+        <div class="bg-cover bg-object -mt-10">
+            <img src="../img/landingPage/section-4/hero-1.jpg" alt=""
+                class="rounded-2xl w-[400px] h-[450px] object-cover shadow-2xl shadow-abuCoklat">
+        </div>
+        <div class="text-justify font-semibold leading-[1.3] text-6xl -ml-40">
+            <p class="font-serif">Bambang Tjahjadi seorang</p>
+            <p class="font-serif">pelukis yang melukis</p>
+            <p class="font-serif">dengan lidi</p>
+            <button type="submit"
+                class="border-solid border-black border px-6 py-3 rounded-full bg-black text-white text-xl font-semibold"><span
+                    class="font-inter">About Me</span></button>
+        </div>
+    </div>
+</section>
+<!-- end Hero 4 -->
+
+<!-- Hero 5 -->
+<section class="w-full min-h-screen bg-brownSemiLight">
+    <div class="pt-24 pb-32">
+        <div class="row justify-items-center font-serif text-6xl font-semibold text-neonLight">
+            <p>What's</p>
+            <p>happening at the</p>
+            <p class="text-abuCoklat">museum right</p>
+            <p class="text-abuCoklat">now.</p>
+            <button class="px-6 py-3 bg-white rounded-3xl text-2xl text-brownSemiLight my-12">See more</button>
+        </div>
+
+        {{-- image --}}
+        <div class="grid grid-cols-4 mx-auto auto-cols-max">
+            <div class="grid grid-rows-2 gap-y-7 filter grayscale-[90%]">
+                <img src="../img/landingPage/section-5/img-1.jpg" alt="Foto 1"
+                    class="w-[450px] h-64 rounded-2xl object-cover">
+                <img src="../img/landingPage/section-5/img-2.jpg" alt="Foto 2"
+                    class="w-[450px] h-64 rounded-2xl object-cover">
+            </div>
+
+            <div class="flex items-center justify-center filter grayscale-[90%]">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="Foto 3"
+                    class="w-[350px] h-[430px] rounded-2xl object-cover">
+            </div>
+
+            <div class="relative h-full">
+                <img src="../img/landingPage/section-5/img-3.jpg" alt="Project Image 3"
+                    class="w-full h-full object-cover rounded-2xl">
+                <div class="absolute inset-0 flex items-center justify-center rounded-2xl bg-black bg-opacity-50">
+                    <div class="text-justify text-white left-0 bottom-0 absolute p-5">
+                        <h1 class="text-5xl">Hall of Frame</h1>
+                        <p>with superhub collab, organize and</p>
+                        <p>prioritize feature request to better</p>
+                        <p>understand with you any with</p>
+                        <p>superhub collab,</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-center filter grayscale-[90%]">
+                <img src="../img/landingPage/section-5/img-4.jpg" alt="Foto 5"
+                    class="w-[350px] h-[430px] rounded-2xl object-cover">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end Hero 5 -->
+
+<!-- Hero 6 -->
 <section class="w-full bg-cream2">
     <div class="container">
         <div class="row text-8xl text-justify mt-20 ml-[108px]">
@@ -147,83 +349,9 @@
             </div>
         </div>
 </section>
-{{-- end hero 3 --}}
+<!-- end Hero 6 -->
 
-{{-- hero 4 --}}
-<section class="w-full bg-white mt-36 pb-20">
-    <div class="row">
-        <div
-            class="col text-[100px] pt-24 pl-24 text-abuCoklat justify-items-start font-serif font-semibold leading-[0.8]">
-            <h1>Who is</h1>
-            <h1>me?</h1>
-        </div>
-    </div>
-
-    <div class="grid grid-cols-2 justify-items-center mx-[60px]">
-        <div class="bg-cover bg-object -mt-10">
-            <img src="../img/landingPage/section-4/hero-1.jpg" alt=""
-                class="rounded-2xl w-[400px] h-[450px] object-cover shadow-2xl shadow-abuCoklat">
-        </div>
-        <div class="text-justify font-semibold leading-[1.3] text-6xl -ml-40">
-            <p class="font-serif">Bambang Tjahjadi seorang</p>
-            <p class="font-serif">pelukis yang melukis</p>
-            <p class="font-serif">dengan lidi</p>
-            <button type="submit"
-                class="border-solid border-black border px-6 py-3 rounded-full bg-black text-white text-xl font-semibold"><span
-                    class="font-inter">About Me</span></button>
-        </div>
-    </div>
-</section>
-{{-- end hero 4 --}}
-
-{{-- hero 5 --}}
-<section class="w-full min-h-screen">
-    <div class="mt-28">
-        <div class="row justify-items-center font-serif text-6xl font-semibold">
-            <p>What's</p>
-            <p>happening at the</p>
-            <p class="text-abuCoklat">museum right</p>
-            <p class="text-abuCoklat">now.</p>
-        </div>
-
-        {{-- image --}}
-        <div class="grid grid-cols-4 mx-auto auto-cols-max mt-5">
-            <div class="grid grid-rows-2 gap-y-7 filter grayscale-[90%]">
-                <img src="../img/landingPage/section-5/img-1.jpg" alt="Foto 1"
-                    class="w-[450px] h-64 rounded-2xl object-cover">
-                <img src="../img/landingPage/section-5/img-2.jpg" alt="Foto 2"
-                    class="w-[450px] h-64 rounded-2xl object-cover">
-            </div>
-
-            <div class="flex items-center justify-center filter grayscale-[90%]">
-                <img src="../img/landingPage/section-5/img-3.jpg" alt="Foto 3"
-                    class="w-[350px] h-[430px] rounded-2xl object-cover">
-            </div>
-
-            <div class="relative h-full">
-                <img src="../img/landingPage/section-5/img-3.jpg" alt="Project Image 3"
-                    class="w-full h-full object-cover rounded-2xl">
-                <div class="absolute inset-0 flex items-center justify-center rounded-2xl bg-black bg-opacity-50">
-                    <div class="text-justify text-white left-0 bottom-0 absolute p-5">
-                        <h1 class="text-5xl">Hall of Frame</h1>
-                        <p>with superhub collab, organize and</p>
-                        <p>prioritize feature request to better</p>
-                        <p>understand with you any with</p>
-                        <p>superhub collab,</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex items-center justify-center filter grayscale-[90%]">
-                <img src="../img/landingPage/section-5/img-4.jpg" alt="Foto 5"
-                    class="w-[350px] h-[430px] rounded-2xl object-cover">
-            </div>
-        </div>
-    </div>
-</section>
-{{-- end hero 5 --}}
-
-{{-- hero 6 --}}
+<!-- Hero 7 -->
 <section class="w-full min-h-screen">
     <div class="container">
         <div class="row">
@@ -250,4 +378,4 @@
 
     </div>
 </section>
-{{-- end hero 6 --}}
+<!-- end Hero 7 -->

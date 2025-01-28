@@ -14,7 +14,7 @@
 
     @include('components.navbar')
 
-    {{-- section 1 --}}
+    <!-- Hero 1 -->
     <div class="container mt-32">
         <div class="font-serif font-semibold">
             <h1 class="flex text-[50px] ml-80 justify-start tracking-widest">A Story Of</h1>
@@ -41,10 +41,10 @@
         </div>
         {{-- end image --}}
     </div>
-    {{-- end section 1 --}}
+    <!-- end Hero 1 -->
 
-    {{-- section 2 --}}
-    <div class="grid grid-cols-2 mt-32 ">
+    <!-- Hero 2 -->
+    <div class="grid grid-cols-2 mt-32 py-36 bg-blackDrop">
         {{-- left content --}}
         <div class="text-8xl tracking-wider font-serif text-justify font-semibold">
             <div class="ml-24">
@@ -55,13 +55,13 @@
 
             <div class="font-serif tracking-wide ml-24 mt-14">
                 <h1 class="text-brownLight text-4xl">Perjalanan sebagai pelukis</h1>
-                <div class="text-lg leading-loose font-inter tracking-normal mt-2 ml-12">
+                <div class="text-lg leading-loose font-inter tracking-normal mt-2 ml-12 text-abuCoklat">
                     <p>with superhub collab, organize and prioritize feature request to</p>
                     <p>better understand with you any with superhub collab, organize</p>
                     <p>and prioritize feature request to better understand with you</p>
                     <p>any</p>
 
-                    <button type="submit" class="py-2 px-12 bg-blackDrop text-white rounded-full mt-10">More
+                    <button type="submit" class="py-2 px-12 bg-blackDrop bg-abuCoklat text-white rounded-full mt-10">More
                     </button>
                 </div>
             </div>
@@ -71,7 +71,7 @@
         <div class="flex flex-col items-center align-middle leading-relaxed font-serif text-justify mt-32 -ml-10">
             <div class=" font-serif font-semibold tracking-wider">
                 <h1 class="text-4xl text-brownLight tracking-widest">Story</h1>
-                <div class="text-lg leading-relaxed font-inter tracking-normal ml-10 mt-4">
+                <div class="text-lg leading-relaxed font-inter tracking-normal ml-10 mt-4 text-abuCoklat">
                     <p>Nama asli saya awalnya BAMBANG KOEN TJAHJO ADI. Karena</p>
                     <p>sakit sakitan, menurut kepercayaan orang jaw, nama itu</p>
                     <p>dipandang terlalu berat sehingga diubah menjadi Bambang</p>
@@ -86,7 +86,7 @@
 
             <div class=" font-serif font-semibold tracking-wider mt-7">
                 <h1 class="text-4xl text-brownLight tracking-widest">Awards</h1>
-                <div class="text-lg leading-relaxed font-inter tracking-normal ml-10 mt-4">
+                <div class="text-lg leading-relaxed font-inter tracking-normal ml-10 mt-4 text-abuCoklat">
                     <p>with superhub collab, organize and prioritize feature request to</p>
                     <p>better understand with you any with superhub collab, organize</p>
                     <p>and prioritize feature request to better understand with you</p>
@@ -95,7 +95,7 @@
             </div>
         </div>
     </div>
-    {{-- end section 2 --}}
+    <!-- end Hero 2 -->
 
     {{-- section 3 --}}
     <section class="container mx-auto mt-64">

@@ -14,7 +14,7 @@ class UserController extends Controller
     }
 
     public function about() {
-        return view('components.about');
+        return view('layouts.about');
     }
     
 
@@ -23,7 +23,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -31,7 +31,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('layouts.shop');
     }
 
     /**
