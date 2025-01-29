@@ -13,7 +13,7 @@
 <body class=" text-center">
 
     <section class="max-h-fit max-w-full">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-[2fr_1.7fr]"> <!-- grid-cols-[2fr_1.7fr] = grid 2:1.7 -->
             <!-- left -->
             <div class="py-10 px-20">
                 <div class="flex flex-col font-serif text-justify">
