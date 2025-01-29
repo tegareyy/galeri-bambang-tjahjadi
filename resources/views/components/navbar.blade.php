@@ -9,10 +9,10 @@
                     <a href="/about" class="font-semibold font-inter text-2xl">About</a>
                 </li>
                 <li>
-                    <a href="" class="font-semibold font-inter text-2xl">Support</a>
+                    <a href="/shop" class="font-semibold font-inter text-2xl">Shop</a>
                 </li>
                 <li>
-                    <a href="/shop" class="font-semibold font-inter text-2xl">Shop</a>
+                    <a href="/contact" class="font-semibold font-inter text-2xl">Contact</a>
                 </li>
             </ul>
         </div>

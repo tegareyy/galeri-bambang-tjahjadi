@@ -16,11 +16,7 @@
 
     @include('layouts.main')
 
-    
-
-    <div class="mb-96"></div>
-
-   
+    @include('components.footer')
 
 </body>
 

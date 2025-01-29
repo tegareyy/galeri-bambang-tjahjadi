@@ -1,4 +1,5 @@
 import defaultTheme from "tailwindcss/defaultTheme";
+const plugin = require("tailwindcss/plugin");
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -10,20 +11,6 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        fontWeight: {
-            thin: "100",
-            hairline: "100",
-            extralight: "200",
-            light: "300",
-            normal: "400",
-            medium: "550",
-            semibold: "600",
-            bold: "700",
-            extrabold: "800",
-            "extra-bold": "800",
-            black: "900",
-        },
-
         extend: {
             colors: {
                 cream: "rgb(250, 243, 237)",
@@ -38,6 +25,10 @@ export default {
                 brownSemiLight: "#242424",
                 blueOcean: "#5a30ff",
                 neonLight: "#42ff38",
+                creamLight: "#fae0d2",
+                yellowSemidark: "#ffcb2e",
+                darkIcon: "#0d0d0d",
+                InputForm: "#f2f2f2",
             },
 
             boxShadow: {
@@ -81,5 +72,38 @@ export default {
                 },
             });
         },
+        plugin(function ({ addComponents, theme }) {
+            addComponents({
+                ".btn-buy": {
+                    padding: `${theme("spacing.3")} ${theme("spacing.9")}`,
+                    fontSize: theme("fontSize.lg"),
+                    backgroundColor: theme("colors.blackDrop"),
+                    color: theme("colors.white"),
+                    borderRadius: theme("borderRadius.3xl"),
+                    transition: "background-color 0.3s ease-in-out",
+                    "&:hover": {
+                        backgroundColor: theme("colors.gray.700"),
+                    },
+                },
+                ".btn-shopping-cart": {
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: `${theme("spacing.3")} ${theme("spacing.5")}`,
+                    fontSize: theme("fontSize.lg"),
+                    backgroundColor: theme("colors.blueOcean"),
+                    color: theme("colors.white"),
+                    borderRadius: theme("borderRadius.3xl"),
+                    transition: "background-color 0.3s ease-in-out",
+                    "&:hover": {
+                        backgroundColor: theme("colors.blue.600"),
+                    },
+                    "& svg": {
+                        width: theme("spacing.7"),
+                        height: theme("spacing.7"),
+                    },
+                },
+            });
+        }),
     ],
 };
