@@ -17,7 +17,7 @@
             <!-- left -->
             <div class="py-10 px-20">
                 <div class="flex flex-col font-serif text-justify">
-                    <p class="bg-yellowSemidark w-fit py-3 px-12 text-xl rounded-3xl font-semibold tracking-wider">
+                    <p class="bg-yellowSemidark w-fit py-3 px-12 text-xl rounded-3xl font-semibold tracking-wid`er">
                         Contact</p>
                     <h1 class="text-6xl py-4">Get in touch</h1>
                     <p class="text-xl">We're to help. Chat our team 24/7 and get set up and ready to go in just 10

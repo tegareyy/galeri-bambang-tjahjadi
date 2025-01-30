@@ -1,22 +1,27 @@
-<section class="bg-blackDrop text-white mt-16 max-h-full">
-    <div class="relative flex justify-center">
-        <input type="email" placeholder="Enter your email"
-            class="absolute w-1/2 h-14 px-20 py-14 -top-12 bg-yellow-400 text-black text-2xl font-semibold rounded-3xl focus:placeholder:text-transparent focus:outline-none placeholder-blackDrop border-2 border-black" />
-    </div>
-    <div class="grid grid-cols-4 mt-32 px-28">
-        <div class="container text-justify cols">
+<section class="bg-blackDrop text-white mt-16 max-h-fit">
+    <div class="grid grid-cols-2 mt-32 py-14 justify-items-center border-2 border-violet-600 ">
+        <div class="flex flex-col text-justify gap-y-3">
             <img src="../img/hero2.jpeg" alt="" class="w-24 h-24 rounded-full border-2 border-violet-500">
-            <h1 class="text-4xl mt-4">Galeri Bambang Tjahjadi</h1>
+            <h1 class="text-3xl mt-4">Galeri Bambang Tjahjadi</h1>
             <p class="text-xl">Lebih ekspresif pakai lidi</p>
         </div>
-        <div class="container">
-            <h1>About</h1>
-        </div>
-        <div class="container">
-            <h1>Resources</h1>
-        </div>
-        <div class="container">
-            <h1>Legal</h1>
+        <div class="grid grid-cols-3 border-2 border-white py-20">
+            <div class="flex flex-col gap-y-5">
+                <h1 class="text-4xl">About</h1>
+                <h1 class="text-2xl">Blog</h1>
+                <h1 class="text-2xl">Pricing</h1>
+            </div>
+            <div class="flex flex-col gap-y-5">
+                <h1 class="text-4xl">Resources</h1>
+                <h1 class="text-2xl">Documentation</h1>
+                <h1 class="text-2xl">Paper</h1>
+            </div>
+            <div class="flex flex-col gap-y-5">
+                <h1 class="text-4xl">Legal</h1>
+                <h1 class="text-2xl">Tearm and Service</h1>
+                <h1 class="text-2xl">Privacy policy</h1>
+                <h1 class="text-2xl">Data processing</h1>
+            </div>
         </div>
     </div>
 </section>
